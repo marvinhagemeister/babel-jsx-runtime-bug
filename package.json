@@ -1,0 +1,20 @@
+{
+	"name": "jsx-runtime",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "babel src/index.jsx --out-file dist/index.js && cat dist/index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/cli": "^7.12.1",
+		"@babel/core": "^7.12.3",
+		"@babel/plugin-transform-react-jsx": "^7.12.1"
+	},
+	"dependencies": {
+		"preact": "^10.5.5"
+	}
+}
